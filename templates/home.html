@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/base.css')}}"/>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}"/>
   </head>
-  <body style="color: red;">
-    hello {{name}}
+  <body>
+  <div class="yay">
+  <div class="row-fluid">
+  <div class="container">
+    <h1>MissIn</h1>
+    <form class="form-horizontal">
+      <div class="control-group">
+        <label class="#" for="inputEmail">Email</label>
+          <div class="#">
+          <input type="text" id="inputEmail" placeholder="Email">
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="#" for="inputPassword">Password</label>
+      <div class="#">
+        <input type="password" id="inputPassword" placeholder="Password">
+      </div>
+    </div>
+    <div class="#">
+      <div class="#">
+        <label class="#">
+          <input type="checkbox"> Remember me
+        </label>
+        <button class="btn btn-small btn-primary" type="button">Sign in</button>
+      </div>
+    </div>
+  </div>
+  </form>
+  </div>
+  </div>
+
+      
   </body>
 </html>
