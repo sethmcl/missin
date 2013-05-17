@@ -13,6 +13,10 @@ def login():
 def map():
   return render_template('map.html');
 
+@app.route('/request')
+def request():
+  return render_template('request.html');
+
 if __name__ == '__main__':
     app.debug = True
     app.run()

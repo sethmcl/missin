@@ -2,3 +2,20 @@
   margin-top: 15px;
   color: red;
 }
+
+#logo {
+	color:white;
+	background-color: #3B9ACF;
+	border-radius:  10px;
+	padding:0 8px; 
+	margin: 1px;
+}
+
+body {
+	background-color: #EEEEEE;
+}
+
+.space {
+	margin-bottom: 75px;
+	margin-top:  25px;
+}

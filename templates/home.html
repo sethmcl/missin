@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap/bootstrap.css')}}"/>
     <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}"/>
     <script type="text/javascript" src="../static/js/base.js"></script>
@@ -11,7 +11,7 @@
   <div class="center">
   <div class="row-fluid">
   <div class="container-fluid">
-    <h1>MissIn</h1>
+    <h1>Miss<span id="logo">in</span></h1>
     <form name="test" action="map" class="form-horizontal" onsubmit="return validateForm();" method="post">
       <div class="control-group">
         <label class="#" for="inputEmail">Email</label>
@@ -30,7 +30,7 @@
         <label class="#">
           <input type="checkbox"> Remember me
         </label>
-        <button class="btn btn-small btn-primary" type="submit">Sign in</button>
+        <button class="btn btn-medium btn-primary" type="submit">Sign in</button>
       </div>
         <p id="error"></p>
     </div>
