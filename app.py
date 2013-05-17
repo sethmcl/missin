@@ -1,17 +1,33 @@
-from flask import Flask, render_template
-app = Flask(__name__)
+from flask import Flask, render_template, jsonify
+from model import db, app, User
+from sqlalchemy import func
 
 @app.route('/')
 def home():
-  return render_template('home.html');
+  return render_template('home.html')
+
 
 @app.route('/login')
 def login():
-  return render_template();
+  return render_template()
+
 
 @app.route('/map')
 def map():
-  return render_template('map.html');
+  return render_template('map.html')
+
+
+@app.route('/users')
+def users():
+  users = User.query.all()
+  results = []
+
+  for user in users:
+    results.append(user.email)
+
+  print results
+  return jsonify({"results": results})
+
 
 if __name__ == '__main__':
     app.debug = True
