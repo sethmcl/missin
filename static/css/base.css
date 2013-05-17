@@ -2,3 +2,74 @@
   margin-top: 15px;
   color: red;
 }
+
+.map {
+  text-align:center;
+  display: block;
+  margin: auto;
+  background-image: url("../other/MtnViewOverview_3_13.png");
+  height: 900px;
+  width: 1165px;
+  position: relative;
+}
+
+.building-2029 {
+  top: 250px;
+  left: 870px;
+  height: 120px;
+  width: 150px;
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
+.building-2027 {
+  top: 330px;
+  left: 615px;
+  height: 118px;
+  width: 89px;
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
+.building-2025 {
+  top: 380px;
+  left: 510px;
+  height: 140px;
+  width: 80px;
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
+.building-2051 {
+  top: 80px;
+  left: 820px;
+  height: 130px;
+  width: 180px;
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
+.building-2061 {
+  top: 80px;
+  left: 580px;
+  height: 120px;
+  width: 150px;
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
+.building-2019 {
+  top: 375px;
+  left: 207px;
+  height: 170px;
+  width: 240px;
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
