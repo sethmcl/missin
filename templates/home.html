@@ -9,34 +9,34 @@
   </head>
   <body>
   <div class="center">
-  <div class="row-fluid">
-  <div class="container-fluid">
-    <h1>MissIn</h1>
-    <form name="test" action="map" class="form-horizontal" onsubmit="return validateForm();" method="post">
-      <div class="control-group">
-        <label class="#" for="inputEmail">Email</label>
+    <div class="row-fluid">
+      <div class="container-fluid">
+        <h1>MissIn</h1>
+        <form name="test" action="map" class="form-horizontal" onsubmit="return validateForm();" method="post">
+          <div class="control-group">
+            <label class="#" for="inputEmail">Email</label>
+              <div class="#">
+                <input name="email" type="text" id="inputEmail" placeholder="Email" required>
+              </div>
+          </div>
+          <div class="control-group">
+            <label class="#" for="inputPassword">Password</label>
+            <div class="#">
+              <input type="password" id="inputPassword" placeholder="Password" required>
+            </div>
+          </div>
           <div class="#">
-          <input name="email" type="text" id="inputEmail" placeholder="Email" required>
+            <div class="#">
+              <label class="#">
+                <input type="checkbox"> Remember me
+              </label>
+              <button class="btn btn-small btn-primary" type="submit">Sign in</button>
+            </div>
+            <p id="error"></p>
+          </div>
+        </form>
       </div>
-    </div>
-    <div class="control-group">
-      <label class="#" for="inputPassword">Password</label>
-      <div class="#">
-        <input type="password" id="inputPassword" placeholder="Password" required>
-      </div>
-    </div>
-    <div class="#">
-      <div class="#">
-        <label class="#">
-          <input type="checkbox"> Remember me
-        </label>
-        <button class="btn btn-small btn-primary" type="submit">Sign in</button>
-      </div>
-        <p id="error"></p>
     </div>
   </div>
-  </form>
-  </div>
-  </div>    
   </body>
 </html>
