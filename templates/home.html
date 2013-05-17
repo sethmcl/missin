@@ -4,17 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
     <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}"/>
+    <script type="text/javascript" src="../static/js/base.js"></script>
   </head>
   <body>
   <div class="center">
   <div class="row-fluid">
   <div class="container-fluid">
     <h1>MissIn</h1>
-    <form class="form-horizontal">
+    <form name="test" action="demo_form.asp" class="form-horizontal" onsubmit="return validateForm();" method="post">
       <div class="control-group">
         <label class="#" for="inputEmail">Email</label>
           <div class="#">
-          <input type="text" id="inputEmail" placeholder="Email">
+          <input name="email" type="text" id="inputEmail" placeholder="Email">
       </div>
     </div>
     <div class="control-group">
@@ -28,14 +29,12 @@
         <label class="#">
           <input type="checkbox"> Remember me
         </label>
-        <button class="btn btn-small btn-primary" type="button">Sign in</button>
+        <button class="btn btn-small btn-primary" type="submit">Sign in</button>
       </div>
     </div>
   </div>
   </form>
   </div>
-  </div>
-
-      
+  </div>    
   </body>
 </html>
