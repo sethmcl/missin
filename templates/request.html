@@ -3,9 +3,18 @@
 <head>
   <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap/bootstrap.css')}}"/>
   <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/base.css')}}">
-  <title>What is Missin?</title>
+  <title>Missin</title>
 </head>
 <body>
+<header class="clearfix center">
+  <form id="search" class="form-search"> 
+    <div class="input-prepend">
+      <button type="submit" class="btn">Search</button>
+      <input type="text" class="span2 search-query">
+    </div>
+  </form>
+</header>
+  <hr>
   <div class="container-fluid">
   <div id ="missin" class="center">
     <div class="space">
