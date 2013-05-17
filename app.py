@@ -9,7 +9,7 @@ def home():
 def login():
   return render_template();
 
-@app.route('/map')
+@app.route('/map', methods=['POST'])
 def map():
   return render_template('map.html');
 
