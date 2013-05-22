@@ -16,6 +16,14 @@ body {
 	background-color: #EEEEEE;
 }
 
+header {
+	float:right;
+}
+
+hr {
+	clear:right;
+}
+
 .space {
 	margin-bottom: 75px;
 	margin-top:  25px;
@@ -98,4 +106,4 @@ body {
 header {
 	margin-top: 10px;
 
-}
+}	

@@ -12,7 +12,7 @@ def login():
   return render_template()
 
 
-@app.route('/map')
+@app.route('/map', methods=["POST","GET"])
 def map():
   return render_template('map.html')
 
