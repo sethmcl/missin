@@ -11,12 +11,14 @@ def home():
 def login():
   return render_template()
 
-
 @app.route('/map', methods=["POST","GET"])
 def map():
   return render_template('map.html')
 
-
+@app.route('/feed')
+def feed():
+  return render_template('feed.html')
+  
 @app.route('/users')
 def users():
   users = User.query.all()

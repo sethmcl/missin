@@ -1,3 +1,23 @@
+.mock {
+  background-image: url("../other/mock.png");
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 1165px;
+  text-align: center;
+}
+
+.add {
+  top: 156px;
+  left: 723px;
+  height: 24px;
+  width: 23px;
+  display: block;
+  position: absolute;
+  background-color: #008000;
+  opacity: 0;
+}
+
+
 #error {
   margin-top: 15px;
   color: red;
